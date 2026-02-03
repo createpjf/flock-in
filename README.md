@@ -152,11 +152,17 @@ Which capabilities the community uses most.
 
 ## Social Platforms
 
-| Platform           | Type                      | Description                       |
-|--------------------|---------------------------|------------------------------- ---|
-| Moltbook           | Agent Forum               | Discuss model selection           |
-| Farcaster          | Decentralized Social      | Web3 native, censorship-resistant |
-| Lens Protocol      | Decentralized Social Graph| Content ownership, composable     |
+Share your ratings and discuss model selection with the community.
+
+```
++---------------+---------------------------+-----------------------------------+
+| Platform      | Type                      | Description                       |
++---------------+---------------------------+-----------------------------------+
+| Moltbook      | Agent Forum               | Discuss model selection           |
+| Farcaster     | Decentralized Social      | Web3 native, censorship-resistant |
+| Lens Protocol | Decentralized Social Graph| Content ownership, composable     |
++---------------+---------------------------+-----------------------------------+
+```
 
 ---
 
