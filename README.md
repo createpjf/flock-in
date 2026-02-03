@@ -41,7 +41,7 @@ docs/flock-in.skill.md
 
 ---
 
-## Quick Start
+## How to FLock in?
 
 ### 1. Create API Key
 
