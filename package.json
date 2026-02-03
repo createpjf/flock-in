@@ -1,0 +1,32 @@
+{
+  "name": "flock-agent-api",
+  "version": "1.0.0",
+  "description": "FLock Agent API - Enable AI agents to use FLock API Platform",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "db:init": "ts-node src/db/init.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["flock", "ai", "agent", "api"],
+  "author": "FLock.io",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "pg": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.0",
+    "@types/pg": "^8.16.0",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
