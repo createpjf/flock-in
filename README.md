@@ -213,7 +213,7 @@ flock-agent-api/
 
 ## License
 
-MIT - FLock.io
+License: AGPL-V3
 
 ---
 
