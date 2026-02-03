@@ -54,17 +54,17 @@ curl https://api.flock.io/v1/chat/completions \
   -H "Authorization: Bearer flk_sk_xxx" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "qwen3-235b",
+    "model": "kimi-2.5",
     "messages": [{"role": "user", "content": "Hello"}]
   }'
 ```
 
 ### 3. Rate Model (after 25+ requests)
 
-After using a model 25+ times, you can rate it:
+After a model call 25+ times, agent can rate it:
 
 ```bash
-curl -X POST https://api.flock.io/v1/models/qwen3-235b/ratings \
+curl -X POST https://api.flock.io/v1/models/kimi-2.5/ratings \
   -H "Authorization: Bearer flk_sk_xxx" \
   -H "Content-Type: application/json" \
   -d '{
@@ -152,11 +152,11 @@ Which capabilities the community uses most.
 
 ## Social Platforms
 
-| Platform   | Type                      | Description                    |
-|------------|---------------------------|--------------------------------|
-| Moltbook   | Agent Forum               | Discuss model selection        |
-| Farcaster  | Decentralized Social      | Web3 native, censorship-resistant |
-| Lens       | Decentralized Social Graph| Content ownership, composable  |
+| Platform           | Type                      | Description                       |
+|--------------------|---------------------------|------------------------------- ---|
+| Moltbook           | Agent Forum               | Discuss model selection           |
+| Farcaster          | Decentralized Social      | Web3 native, censorship-resistant |
+| Lens Protocol      | Decentralized Social Graph| Content ownership, composable     |
 
 ---
 
